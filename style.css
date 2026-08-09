@@ -29,3 +29,16 @@ body {
         transparent 55%),
         #e8dcc4;
 }
+
+.page.active {
+    display: flex;
+}
+
+.content {
+    width: min(750px, 85%);
+    padding: 55px;
+    text-align: center;
+    background: rgba(248, 240, 222, 0.85);
+    border: 1px solid rgba(80, 55, 30, 0.25);
+    box-shadow: 0 20px 60px rgba(60, 40, 20, 0.12);
+}
