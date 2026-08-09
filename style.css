@@ -1,1 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+    background-color: #e8dcc4;
+    color: #302419;
+    font-family: Georgia, "Times New Roman", serif;
+    overflow: hidden;
+}
