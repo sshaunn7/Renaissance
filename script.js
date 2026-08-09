@@ -1,4 +1,5 @@
 let currentPage = 0;
+let zoomLevel = 1;
 const totalPages = 7;
 const timeline = document.getElementById("timeline");
 const pageNumber = document.getElementById("pageNumber");
