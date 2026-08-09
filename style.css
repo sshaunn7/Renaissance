@@ -13,8 +13,19 @@ body {
 #timeline {
     width: 100vw;
     height: 100vh;
-
-    /* JavaScript changes this value for zooming. */
     transform-origin: center center;
     transition: transform 0.25s ease;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    background:
+        radial-gradient(circle at center,
+        rgba(255,255,255,0.25),
+        transparent 55%),
+        #e8dcc4;
 }
