@@ -38,6 +38,20 @@ function previousPage() {
     goToPage(currentPage);
 }
 
+function updatePageNumber() {
+    pageNumber.textContent =
+        (currentPage + 1) + " / " + totalPages;
+}
+
+function updateButtons() {
+    backButton.disabled = (currentPage === 0);
+    if (currentPage === totalPages - 1) {
+        nextButton.textContent = "Loop to Home →";
+    } else {
+        nextButton.textContent = "Forward →";
+    }
+}
+
 function zoomIn() {
     zoomLevel = zoomLevel + 0.1;
     if (zoomLevel > 1.5) {
