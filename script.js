@@ -38,12 +38,30 @@ function previousPage() {
 }
 
 function zoomIn() {
+    zoomLevel = zoomLevel + 0.1;
+    if (zoomLevel > 1.5) {
+        zoomLevel = 1.5;
+    }
+    
+    applyZoom();
 }
 
-function zoomOut() {
+function zoomOut() 
+    zoomLevel = zoomLevel - 0.1;
+    if (zoomLevel < 0.7) {
+        zoomLevel = 0.7;
+    }
+
+    applyZoom();
+}
+
+function applyZoom() {
+    timeline.style.transform = "scale(" + zoomLevel + ")";
 }
 
 function resetZoom() {
+    zoomLevel = 1;
+    applyZoom();
 }
 
 goToPage(1);
