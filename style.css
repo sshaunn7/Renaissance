@@ -49,6 +49,16 @@ body {
     color: #92703d;
 }
 
+h1 {
+    font-size: clamp(45px, 8vw, 85px);
+    margin: 15px 0;
+}
+
+h2 {
+    font-size: clamp(32px, 5vw, 55px);
+    margin: 10px 0 25px;
+}
+
 .year {
     font-size: 20px;
     letter-spacing: 5px;
@@ -66,6 +76,21 @@ body {
     font-size: 11px !important;
     color: #76634c;
     overflow-wrap: anywhere;
+}
+
+button {
+    border: 1px solid rgba(70, 45, 20, 0.35);
+    background: #f5ead3;
+    color: #302419;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-family: Georgia, "Times New Roman", serif;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #fff6e5;
+    transform: translateY(-2px);
 }
 
 .navigation {
