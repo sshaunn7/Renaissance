@@ -48,3 +48,22 @@ body {
     letter-spacing: 4px;
     color: #92703d;
 }
+
+.year {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #92703d;
+}
+
+.content p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.source {
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 11px !important;
+    color: #76634c;
+    overflow-wrap: anywhere;
+}
