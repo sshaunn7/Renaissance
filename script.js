@@ -61,7 +61,7 @@ function zoomIn() {
     applyZoom();
 }
 
-function zoomOut() 
+function zoomOut() {
     zoomLevel = zoomLevel - 0.1;
     if (zoomLevel < 0.7) {
         zoomLevel = 0.7;
