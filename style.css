@@ -67,3 +67,41 @@ body {
     color: #76634c;
     overflow-wrap: anywhere;
 }
+
+.navigation {
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 10;
+}
+
+#pageNumber {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #6e5b43;
+    min-width: 45px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 30px;
+        width: 90%;
+    }
+
+    .content p {
+        font-size: 15px;
+    }
+
+    .navigation {
+        bottom: 15px;
+    }
+
+    .navigation button {
+        padding: 10px 13px;
+    }
+}
