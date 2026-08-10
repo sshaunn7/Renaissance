@@ -17,6 +17,34 @@ body {
     transition: transform 0.25s ease;
 }
 
+.page1 {
+    background-image: url("images/");
+}
+
+.page2 {
+    background-image: url("images/");
+}
+
+.page3 {
+    background-image: url("images/");
+}
+
+.page4 {
+    background-image: url("images/");
+}
+
+.page5 {
+    background-image: url("images/");
+}
+
+.page6 {
+    background-image: url("images/");
+}
+
+.page7 {
+    background-image: url("images/");
+}
+
 .page {
     width: 100vw;
     height: 100vh;
